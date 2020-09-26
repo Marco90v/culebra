@@ -15,7 +15,7 @@ Tiene funciones de donde se redibuja el canvas, verifica la tecla presionada, ag
 
 #### [Demo](http://marco90v.github.io/culebra/)
 
-### Autor: Marco Velasquez Figarella
+### Autor: Marco
 
 <br>
 <hr />
