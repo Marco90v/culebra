@@ -38,6 +38,6 @@ It has functions where it redraws the canvas, checks the keystroke, adds new ele
 
 #### [Demo](http://marco90v.github.io/culebra/)
 
-### Author: Marco Velasquez Figarella
+### Author: Marco
 
 
