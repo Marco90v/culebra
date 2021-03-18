@@ -15,7 +15,7 @@ Tiene funciones de donde se redibuja el canvas, verifica la tecla presionada, ag
 
 #### [Demo](http://marco90v.github.io/culebra/)
 
-### Autor: Marco Velasquez Figarella
+### Autor: Marco
 
 <br>
 <hr />
@@ -38,6 +38,6 @@ It has functions where it redraws the canvas, checks the keystroke, adds new ele
 
 #### [Demo](http://marco90v.github.io/culebra/)
 
-### Author: Marco Velasquez Figarella
+### Author: Marco
 
 
