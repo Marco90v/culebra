@@ -1,3 +1,8 @@
+import imgApple from "./assets/apple.png"
+import imgHead from "./assets/head.png"
+import imgTail from "./assets/tail.png"
+import imgGrass from "./assets/background.jpg"
+import audioEat from "./assets/eating-sound-effect-36186.mp3"
 type status = typeof APP_STATUS[keyof typeof APP_STATUS]
 type key = keyof typeof key
 const scoreHTML = document.querySelector<HTMLSpanElement>("#puntos")
@@ -266,11 +271,11 @@ function eventKeyPress(ctx:CanvasRenderingContext2D | null){
 }
 
 function characterLoad(){
-  apple.src = "src/assets/apple.png"
-  head.src = "src/assets/head.png"
-  tail.src = "src/assets/tail.png"
-  grass.src = "src/assets/background.jpg"
-  eat.src = "src/assets/eating-sound-effect-36186.mp3"
+  apple.src = imgApple
+  head.src = imgHead
+  tail.src = imgTail
+  grass.src = imgGrass
+  eat.src = audioEat
 }
 
 function changeValue(e:Event, ele:HTMLInputElement | null) {
