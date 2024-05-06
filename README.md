@@ -15,6 +15,9 @@ Tiene funciones de donde se redibuja el canvas, verifica la tecla presionada, ag
 
 #### [Demo](http://marco90v.github.io/culebra/)
 
+### Vista Previa
+![juego](/preview/2024-05-06_00-13.png)
+
 ### Autor: Marco
 
 <br>
@@ -37,5 +40,8 @@ The body object will store the current position that will be used to draw on the
 It has functions where it redraws the canvas, checks the keystroke, adds new element, checks the collision, changes position of the apple.
 
 #### [Demo](http://marco90v.github.io/culebra/)
+
+### Preview
+![juego](/preview/2024-05-06_00-13.png)
 
 ### Author: Marco
