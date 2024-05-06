@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake</title>
+    <script type="module" crossorigin src="/assets/index-CtbkSuiX.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Bp8XZPX5.css">
+  </head>
+  <body>
+    <h1>Snake</h1>
+    <p>Puntaje: <span id="puntos">0</span></p>
+    <div class="content">
+      <canvas id="game"></canvas>
+      <div class="instrucciones">
+        <h2>Intrucciones</h2>
+        <p>Para mover use las teclas direccionales</p>
+        <ul>
+          <li><span>Arriba</span> &uarr;</li>
+          <li><span>Derecha</span> &rarr;</li>
+          <li><span>Izquierda</span> &darr;</li>
+          <li><span>Abajo</span> &larr;</li>
+        </ul>
+        <p>Utilice la tecla "Enter" para iniciar ó pausar</p>
+        <p>Utilice la tecla "R" para reiniciar la partida</p>
+        <h2>Configuración</h2>
+        <span>Velocidad: </span>
+        <input type="range" id="speed" min="40" max="200">
+        <input type="number" id="speedNumber" value="0" min="40" max="200">
+      </div>
+    </div>
+  </body>
+</html>
