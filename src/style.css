@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+h1, h2{
+  color: rgb(53, 53, 53);
+}
+h1{
+  margin: 0rem 0;
+}
+h2{
+  text-decoration: underline;
+  margin: 1rem 0;
+}
+p{
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+canvas {
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  margin: 1rem 0;
+  background-color: white;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+.content ul {
+  margin-left: 1rem;
+}
+#speedNumber{
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+}
